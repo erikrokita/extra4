@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<title>Click Button Game</title>
+		<link rel="stylesheet" href="extra4.css">
+	</head>
+	<body>
+		<div id="menu">
+			<p id="menu-text">Super <span id="ultrahard">Ultra</span> fun clicking button game!</p>
+			<p id="description-text">Click one of the buttons below to pick your difficulty. Once the game starts, start clicking as fast as you can to beat the computer!
+			Hover over each difficulty to see how many clicks you need to win as well as how fast the computer will click</p>
+			<table>
+				<tr>
+					<td><input id="btn_easy" type="button" value="Easy"/></td>
+					<td><input id="btn_medium" type="button" value="Medium"/></td>
+					<td><input id="btn_hard" type="button" value="Hard"/></td>
+					<td><input id="btn_shard" type="button" value="Super Hard"/></td>
+				</tr>
+			</table>
+			<p id="info"></p>
+		</div>
+		<div id="game">
+			<p id="countdown">Get ready...</p>
+			<table id="game_buttons">
+				<tr>
+					<td><input id="btn_player" type="button" value="0"/></td>
+					<td><input id="btn_computer" type="button" value="0"/></td>
+				</tr>
+			</table>
+		</div>
+		<div id="finish">
+			<p id="game_finish"></p>
+			<input id="reset" type="button" value="Back to menu"/>
+		</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>	<!--links jquery-->
+	<script src="extra4.js"></script>	<!--links js file-->
+	</body>
+</html>
